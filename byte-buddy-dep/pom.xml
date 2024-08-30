@@ -48,10 +48,6 @@
                     <groupId>org.ow2.asm</groupId>
                     <artifactId>asm-analysis</artifactId>
                 </exclusion>
-                <exclusion>
-                    <groupId>org.ow2.asm</groupId>
-                    <artifactId>asm-tree</artifactId>
-                </exclusion>
             </exclusions>
         </dependency>
         <dependency>

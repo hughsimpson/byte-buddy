@@ -44,7 +44,8 @@ import static net.bytebuddy.matcher.ElementMatchers.is;
 import static net.bytebuddy.matcher.ElementMatchers.not;
 
 /**
- * Implementations of this interface represent an instrumented type that is subject to change. Implementations
+ * Implementations of this 
+  represent an instrumented type that is subject to change. Implementations
  * should however be immutable and return new instance when its builder methods are invoked.
  */
 public interface InstrumentedType extends TypeDescription {
@@ -509,10 +510,10 @@ public interface InstrumentedType extends TypeDescription {
          * A set containing all keywords of the Java programming language.
          */
         private static final Set<String> KEYWORDS = new HashSet<String>(Arrays.asList(
-                "abstract", "continue", "for", "new", "switch", "assert", "default", "goto", "package", "synchronized", "boolean",
+                "abstract", "continue", "for", "new", "switch", "assert", "goto", "package", "synchronized", "boolean",
                 "do", "if", "private", "this", "break", "double", "implements", "protected", "throw", "byte", "else", "import",
                 "public", "throws", "case", "enum", "instanceof", "return", "transient", "catch", "extends", "int", "short",
-                "try", "char", "final", "interface", "static", "void", "class", "finally", "long", "strictfp", "volatile",
+                "try", "char", "final", "static", "void", "class", "finally", "long", "strictfp", "volatile",
                 "const", "float", "native", "super", "while"
         ));
 
